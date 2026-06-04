@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    margin:0;
+    min-height:100vh;
+    background-color: #0b1d51;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+  
+    
+}
+h1{
+    color: gold;
+    font-weight: bold;
+}
+img{
+    width: 50px;
+    height: auto;
+    
+}
+.heading{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    justify-content: center;
+    margin-top: 5px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height: 550px;
+    width:450px;
+    background-color:#1e293b;
+    margin-top: 10px;
+    border-radius: 20px;
+    color:white;
+    padding: 20px;
+    position:relative;
+}
+#box{
+    height: 60px;
+    width: 60px;
+    margin-top: -300px;
+}
+#sec{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(62, 167, 62);
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+p{
+    color: white;
+    font-weight: 200;
+    
+}
+button{
+    height: 35px;
+    width: 90px;
+    background-color:  #6A0DAD;
+    color: white;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    justify-content: center ;
+}
+button:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+#tick{
+    margin-top: 20px;
+}
