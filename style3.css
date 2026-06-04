@@ -67,4 +67,22 @@ button:hover{
 h1{
 color: yellow;
 }
+@media (min-width: 1024px) {
+    #container {
+        max-width: 500px; /* Desktop par container ko thoda breathing room diya */
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+
+    .para {
+        font-size: 20px; /* Aapka original text size */
+    }
+      .option {
+        font-size: 20px;
+    }
+}
 

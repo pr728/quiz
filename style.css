@@ -35,7 +35,7 @@ body{
     border-radius: 50%;
     position: relative;
     top: -20px;
-    margin-top: -80px;
+    margin-top: -50px;
     font-size: 20px;
     text-align: center;
     align-self: center;
@@ -80,4 +80,25 @@ h2{
 }
 p{
     color:#334155;
+}
+@media (min-width: 1024px) {
+    #first {
+        max-width: 450px; 
+        padding: 40px;
+    }
+
+    .circle {
+        height: 140px; 
+        width: 140px;
+        top: -70px;
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 16px;
+    }
 }
