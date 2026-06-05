@@ -83,19 +83,19 @@ p{
 }
 @media (min-width: 1024px) {
     #first {
-        max-width: 450px; 
-        padding: 40px;
+        max-width: 100%; 
+        padding: 0 15px;
     }
 
     .circle {
-        height: 140px; 
-        width: 140px;
+        height: 100px; 
+        width: 100px;
         top: -70px;
         font-size: 20px;
     }
 
     h2 {
-        font-size: 30px;
+        font-size: 16px;
     }
 
     p {
