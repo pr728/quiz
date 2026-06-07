@@ -108,6 +108,7 @@ p{
         display: block;
         margin: 0 auto;
         padding: 12px 30px;
-        position: static;
+        margin-bottom: 5px;
+        
     }
 }
