@@ -12,7 +12,7 @@ body{
 }
 #first{
     background-color: #bfe9f5;
-    height: 600px;
+    height: 550px;
     width:400px;
     display: flex;
     align-items:center;
@@ -59,8 +59,8 @@ button{
     background-color: #1E3A8A;
     color: white;
     position: relative;
-    margin-top: 80px;
-    margin-left: 0px;
+    margin-top: 10px;
+    margin-left: 70px;
     font-size: 16px;
     font-weight: bold;
     padding: 10px 25px;
@@ -112,7 +112,7 @@ p{
     @media (max-width: 455px){
     #first{
         max-width: 90%;
-        height: 800px;
+        height: 600px;
     }
     input{
         width:90%;
@@ -121,7 +121,7 @@ p{
     }
     button{
         display: block;
-        
+        margin-top: 20px;
         margin-left:0;
         
     }
