@@ -59,8 +59,8 @@ button{
     background-color: #1E3A8A;
     color: white;
     position: relative;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 0px;
     font-size: 16px;
     font-weight: bold;
     padding: 10px 25px;
@@ -121,10 +121,8 @@ p{
     }
     button{
         display: block;
-        position: relative;
-        margin-top:20px;
-        align-self:center;
-        justify-content:start-flex;
+        margin-top:30px;
+        margin-left:0;
         
     }
     }
