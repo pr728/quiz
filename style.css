@@ -113,9 +113,10 @@ p{
     }
     @media (max-width: 355px){
     #first{
-        max-width: 70%;
-        width: 200px;
+        max-width: 80%;
+        width: 300px;
         height: 700px;
+        margin: 20px auto;
     }
     input{
         width:90%;
