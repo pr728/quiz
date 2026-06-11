@@ -113,7 +113,7 @@ p{
     }
     @media (max-width: 355px){
     #first{
-        max-width: 70%;
+        max-width: 50%;
         width: 200px;
         height: 700px;
     }
