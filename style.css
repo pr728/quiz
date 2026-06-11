@@ -30,10 +30,12 @@ body{
     align-items: center;
     justify-content: center;
     background-color: white;
-    height:140px;
-    width:140px;
+    height:100px;
+    width:100px;   
+     position: relative;
     border-radius: 50%;
-    position: relative;
+    margin-top: 30px;
+    
     top: -20px;
     margin-top: -50px;
     font-size: 20px;
@@ -109,19 +111,19 @@ p{
     p {
         font-size: 16px;
     }
-    @media (max-width: 455px){
+    @media (max-width: 355px){
     #first{
         max-width: 90%;
-        height: 800px;
+        height: 700px;
     }
     input{
         width:90%;
         padding: 12px;
-        margin-bottom: 30px;
+        
     }
     button{
         display: block;
-        margin-top: 20px;
+        margin-top: 40px;
         margin-left:0;
         
     }
